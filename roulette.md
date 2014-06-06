@@ -1,0 +1,5 @@
+###Roulette
+
+**Step 1:** Write a method called `roulette(bet)` that takes an argument of the bet a player is placing. For the sake of simplicity we're going to assume that the player is only going to place bets on **black**, **red**, **even**, or **odd**, all of which have a **47.37%** probability of resulting in a win. If the player wins their money is doubled, and if the player looses they loose all their money. Determine if the player won or lost *(simulating the correct chances)*, and return the amount of money they get back.  
+
+**Step 2:** Write a method called `martingale(bet)` that takes an argumetn of a player's bet. Martingale is a betting strategy in which a player will double his/her bet everytime s/he looses. In your `martingale` method simulate this strategy, using roulette to simulate the actual game play. Once the user has won a round of roulette using this strategy return the amount of money they won, and how many times they had to double their bet to get a win.  
