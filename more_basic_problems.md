@@ -24,6 +24,7 @@ Write a function ‘interleave’ that alternates the contents of two or more ar
 
 ===================================================
 Write a function ‘truncate’ that shortens a string to the provided length, INCLUDING a trailing ellipsis:
+
 	truncate(“this string”, 6) # => “thi…”
 ===================================================
 Write a function ‘hashify’ that takes a 2D array (each inner array is a k/v pair) and creates a hash:
